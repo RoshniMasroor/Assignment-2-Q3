@@ -55,7 +55,8 @@ plt.ylabel('Total CO2 produced')
 plt.show()
 
 # Predicting a new result with Linear Regression
-lin_reg.predict([[2011]])
+#I've performed all the three predictions separately running the whole code thrice to make thing clear but here I've written them all together
+lin_reg.predict([[2011]])    
 print (lin_reg.predict([[2011]]))
 
 
